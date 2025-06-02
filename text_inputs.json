@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Input field_outline",
+    "type": "INSTANCE",
+    "component_id": "1:8266",
+    "label": "Email",
+    "placeholder": "",
+    "hint": "This is a hint text to help user.",
+    "value": "",
+    "properties": {
+      "Label#3285:0": {
+        "value": true,
+        "type": "BOOLEAN"
+      },
+      "Help icon#3285:674": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "Hint text#3285:337": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "\ud83d\udd00 Icon swap#3473:104": {
+        "value": "1:5893",
+        "type": "INSTANCE_SWAP",
+        "preferredValues": []
+      },
+      "Leading icon#20691:0": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "Size": {
+        "value": "md",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "Type": {
+        "value": "Default",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "Destructive": {
+        "value": "False",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "State": {
+        "value": "Placeholder",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    },
+    "style": {
+      "width": 800.0,
+      "height": 62.0
+    }
+  },
+  {
+    "name": "Input field_outline",
+    "type": "INSTANCE",
+    "component_id": "1:8266",
+    "label": "Password",
+    "placeholder": "",
+    "hint": "This is a hint text to help user.",
+    "value": "",
+    "properties": {
+      "Label#3285:0": {
+        "value": true,
+        "type": "BOOLEAN"
+      },
+      "Help icon#3285:674": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "Hint text#3285:337": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "\ud83d\udd00 Icon swap#3473:104": {
+        "value": "1:5893",
+        "type": "INSTANCE_SWAP",
+        "preferredValues": []
+      },
+      "Leading icon#20691:0": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "Size": {
+        "value": "md",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "Type": {
+        "value": "Default",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "Destructive": {
+        "value": "False",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "State": {
+        "value": "Placeholder",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    },
+    "style": {
+      "width": 800.0,
+      "height": 62.0
+    }
+  },
+  {
+    "name": "Input dropdown_outline",
+    "type": "INSTANCE",
+    "component_id": "146:6293",
+    "label": "Team member",
+    "placeholder": "",
+    "hint": "This is a hint text to help user.",
+    "value": "",
+    "properties": {
+      "Label#3281:500": {
+        "value": true,
+        "type": "BOOLEAN"
+      },
+      "Hint text#3281:516": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "Supporting text#3281:532": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "Close#8527:253": {
+        "value": true,
+        "type": "BOOLEAN"
+      },
+      "\ud83d\udd00 Icon swap#3473:79": {
+        "value": "1:62",
+        "type": "INSTANCE_SWAP",
+        "preferredValues": []
+      },
+      "Size": {
+        "value": "md",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "Type": {
+        "value": "Default",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "State": {
+        "value": "Placeholder",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    },
+    "style": {
+      "width": 800.0,
+      "height": 62.0
+    }
+  },
+  {
+    "name": "Textarea input field",
+    "type": "INSTANCE",
+    "component_id": "146:7190",
+    "label": "Description",
+    "placeholder": "",
+    "hint": "This is a hint text to help user.",
+    "value": "",
+    "properties": {
+      "Label#3285:1011": {
+        "value": true,
+        "type": "BOOLEAN"
+      },
+      "Hint text#3285:1040": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "Character Limit#38274:0": {
+        "value": false,
+        "type": "BOOLEAN"
+      },
+      "Type": {
+        "value": "Default",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "Destructive": {
+        "value": "False",
+        "type": "VARIANT",
+        "boundVariables": {}
+      },
+      "State": {
+        "value": "Placeholder",
+        "type": "VARIANT",
+        "boundVariables": {}
+      }
+    },
+    "style": {
+      "width": 800.0,
+      "height": 104.0
+    }
+  }
+]
