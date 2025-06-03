@@ -97,42 +97,41 @@ def convert_figma_to_ecomponent(figma_data):
         height = f"{int(style.get('height', 40))}px"
 
         blocks[block_id] = {
-    "component": {
-        "componentType": "TextInput",
-        "appearance": {
-            "size": "md",
-            "variant": "outlined",
-            "styles": {
-                "width": {"custom": width},     # ✅ custom wrapped
-                "height": {"custom": height}    # ✅ custom wrapped
-            },
-            "placeholder": {
-                "align": "left"
-            },
-            "value": {}
-        },
-        "content": {
-            "addOns": {
-                "label": {
-                    "appearance": {
-                        "color": "text-secondary",
-                        "variant": "text-sm",
-                        "weight": "medium"
+            "component": {
+                "componentType": "TextInput",
+                "appearance": {
+                    "size": "md",
+                    "variant": "outlined",
+                    "styles": {
+                        "width": {"custom": width},
+                        "height": {"custom": height}
                     },
-                    "value": input_data.get("label", "")
+                    "placeholder": {
+                        "align": "left"
+                    },
+                    "value": {}
+                },
+                "content": {
+                    "placeholder": input_data.get("placeholder", ""),  # ✅ Correct placement
+                    "addOns": {
+                        "label": {
+                            "appearance": {
+                                "color": "text-secondary",
+                                "variant": "text-sm",
+                                "weight": "medium"
+                            },
+                            "value": input_data.get("label", "")
+                        }
+                    }
                 }
             },
-            "placeholder": input_data.get("placeholder", "")
+            "visibility": {"value": True},
+            "dpOn": [],
+            "displayName": f"TextInput_{i}",
+            "dataSourceIds": [],
+            "id": block_id,
+            "parentId": "root_id"
         }
-    },
-    "visibility": {"value": True},
-    "dpOn": [],
-    "displayName": f"TextInput_{i}",
-    "dataSourceIds": [],
-    "id": block_id,
-    "parentId": "root_id"
-}
-
 
     # Root Stack container block
     blocks["root_id"] = {
@@ -174,13 +173,11 @@ def convert_figma_to_ecomponent(figma_data):
 
     return e_component
 
-
 # Load figma-extracted input data
 with open('text_inputs.json', 'r') as file:
     figma_data = json.load(file)
 
 # Convert and save
-
 converted_data = convert_figma_to_ecomponent(figma_data)
 with open('e_component.json', 'w') as file:
     json.dump(converted_data, file, indent=2)

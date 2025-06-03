@@ -4,7 +4,7 @@
     "type": "INSTANCE",
     "component_id": "1:8266",
     "label": "Email",
-    "placeholder": "",
+    "placeholder": "olivia@untitledui.com",
     "hint": "This is a hint text to help user.",
     "value": "",
     "properties": {
@@ -60,7 +60,7 @@
     "type": "INSTANCE",
     "component_id": "1:8266",
     "label": "Password",
-    "placeholder": "",
+    "placeholder": "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022",
     "hint": "This is a hint text to help user.",
     "value": "",
     "properties": {
@@ -116,7 +116,7 @@
     "type": "INSTANCE",
     "component_id": "146:6293",
     "label": "Team member",
-    "placeholder": "",
+    "placeholder": "Select team member",
     "hint": "This is a hint text to help user.",
     "value": "",
     "properties": {
@@ -167,7 +167,7 @@
     "type": "INSTANCE",
     "component_id": "146:7190",
     "label": "Description",
-    "placeholder": "",
+    "placeholder": "Enter a description...",
     "hint": "This is a hint text to help user.",
     "value": "",
     "properties": {

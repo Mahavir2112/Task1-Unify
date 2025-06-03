@@ -5,12 +5,12 @@
   "hasMore": false,
   "objects": [
     {
-      "createdTime": 1748867289272,
+      "createdTime": 1748929472064,
       "deleted": false,
       "entityType": "e_component",
-      "id": "e_3247c5a0c0da4d20902ff563842306d7",
+      "id": "e_0d0131f6d9c948cc81efe9b3887b56e0",
       "lastModifiedBy": 522,
-      "modifiedTime": 1748867289272,
+      "modifiedTime": 1748929472064,
       "ownerUserId": 522,
       "properties": {
         "layout": {
@@ -26,7 +26,7 @@
           }
         },
         "blocks": {
-          "b_397b1d": {
+          "b_ba0638": {
             "component": {
               "componentType": "TextInput",
               "appearance": {
@@ -46,6 +46,7 @@
                 "value": {}
               },
               "content": {
+                "placeholder": "olivia@untitledui.com",
                 "addOns": {
                   "label": {
                     "appearance": {
@@ -55,8 +56,7 @@
                     },
                     "value": "Email"
                   }
-                },
-                "placeholder": ""
+                }
               }
             },
             "visibility": {
@@ -65,10 +65,10 @@
             "dpOn": [],
             "displayName": "TextInput_1",
             "dataSourceIds": [],
-            "id": "b_397b1d",
+            "id": "b_ba0638",
             "parentId": "root_id"
           },
-          "b_3405e5": {
+          "b_4071ad": {
             "component": {
               "componentType": "TextInput",
               "appearance": {
@@ -88,6 +88,7 @@
                 "value": {}
               },
               "content": {
+                "placeholder": "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022",
                 "addOns": {
                   "label": {
                     "appearance": {
@@ -97,8 +98,7 @@
                     },
                     "value": "Password"
                   }
-                },
-                "placeholder": ""
+                }
               }
             },
             "visibility": {
@@ -107,10 +107,10 @@
             "dpOn": [],
             "displayName": "TextInput_2",
             "dataSourceIds": [],
-            "id": "b_3405e5",
+            "id": "b_4071ad",
             "parentId": "root_id"
           },
-          "b_f1784a": {
+          "b_3b6087": {
             "component": {
               "componentType": "TextInput",
               "appearance": {
@@ -130,6 +130,7 @@
                 "value": {}
               },
               "content": {
+                "placeholder": "Select team member",
                 "addOns": {
                   "label": {
                     "appearance": {
@@ -139,8 +140,7 @@
                     },
                     "value": "Team member"
                   }
-                },
-                "placeholder": ""
+                }
               }
             },
             "visibility": {
@@ -149,10 +149,10 @@
             "dpOn": [],
             "displayName": "TextInput_3",
             "dataSourceIds": [],
-            "id": "b_f1784a",
+            "id": "b_3b6087",
             "parentId": "root_id"
           },
-          "b_2ed3d5": {
+          "b_d9642a": {
             "component": {
               "componentType": "TextInput",
               "appearance": {
@@ -172,6 +172,7 @@
                 "value": {}
               },
               "content": {
+                "placeholder": "Enter a description...",
                 "addOns": {
                   "label": {
                     "appearance": {
@@ -181,8 +182,7 @@
                     },
                     "value": "Description"
                   }
-                },
-                "placeholder": ""
+                }
               }
             },
             "visibility": {
@@ -191,7 +191,7 @@
             "dpOn": [],
             "displayName": "TextInput_4",
             "dataSourceIds": [],
-            "id": "b_2ed3d5",
+            "id": "b_d9642a",
             "parentId": "root_id"
           },
           "root_id": {
@@ -227,10 +227,10 @@
               },
               "content": {
                 "blockIds": [
-                  "b_397b1d",
-                  "b_3405e5",
-                  "b_f1784a",
-                  "b_2ed3d5",
+                  "b_ba0638",
+                  "b_4071ad",
+                  "b_3b6087",
+                  "b_d9642a",
                   "__PLACEHOLDER__"
                 ]
               }
@@ -281,7 +281,7 @@
               "isRootBlock": true
             },
             "dataSourceIds": [],
-            "id": "4f7f495e-250f-471d-b804-0ed9ec68acce"
+            "id": "3ca1cbc7-ab95-439c-bf85-f029187ced63"
           },
           "footer_id": {
             "component": {
@@ -318,7 +318,7 @@
               "isRootBlock": true
             },
             "dataSourceIds": [],
-            "id": "96ff66c6-7fa8-4852-a248-674a590b76ec"
+            "id": "b56bd0f2-c945-4be6-b78c-2918fd45eb2f"
           }
         },
         "name": "Homepage",
