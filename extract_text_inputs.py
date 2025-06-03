@@ -77,7 +77,7 @@ def _extract_input_properties(node: Dict) -> Optional[Dict]:
         for child in node.get('children', []):
             walk(child)
 
-    walk(node)
+    walk(node) 
 
     return input_props
 

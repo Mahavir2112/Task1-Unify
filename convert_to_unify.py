@@ -163,7 +163,7 @@ def convert_figma_to_ecomponent(figma_data):
         "visibility": {"value": True},
         "displayName": "Body",
         "additional": {"isRootBlock": True},
-        "dataSourceIds": [],
+        "dataSourceIds": [] ,
         "id": "root_id"
     }
 
