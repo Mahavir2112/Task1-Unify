@@ -56,8 +56,8 @@
     }
   },
   {
-    "name": "Input field_outline" ,
-    "type": "INSTANCE", 
+    "name": "Input field_outline",
+    "type": "INSTANCE",
     "component_id": "1:8266",
     "label": "Password",
     "placeholder": "\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022",

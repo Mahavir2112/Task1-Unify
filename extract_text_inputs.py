@@ -14,7 +14,13 @@ def extract_text_inputs(figma_json: Dict) -> List[Dict]:
 
 def _traverse_node(node: Dict) -> List[Dict]:
     inputs = []
+
     if _is_text_input(node):
+        if not node.get("visible", True):
+            return inputs
+        if not node.get("absoluteBoundingBox"):
+            return inputs
+
         input_data = _extract_input_properties(node)
         if input_data:
             inputs.append(input_data)
