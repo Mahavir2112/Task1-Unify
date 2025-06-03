@@ -12,16 +12,19 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Mahavir2112/Task1-Unify/main/Figma_image.png" height="300"/>
+      <img src="https://raw.githubusercontent.com/Mahavir2112/Task1-Unify/main/Figma_image.png" height="300"/><br/>
+      <strong>Figma</strong>
     </td>
-    <td align="center" style="font-size: 3rem;">➡️</td>
+    <td align="center" style="font-size: 20rem;">➡️</td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Mahavir2112/Task1-Unify/main/Unify_image.png" height="300"/>
+      <img src="https://raw.githubusercontent.com/Mahavir2112/Task1-Unify/main/Unify_image.png" height="300"/><br/>
+      <strong>Unify Website</strong>
     </td>
   </tr>
 </table>
 
 </p>
+
 
 
 
