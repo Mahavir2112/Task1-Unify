@@ -21,17 +21,6 @@ This project provides a two-step toolchain to convert Figma design exports into 
 
    📤 Output: `e_component.json`
 
----
-
-### 🔁 How It Works
-
-#### 🧩 Step 1: Extract Text Inputs
-
-```bash
-python extract_text_inputs.py
-
-
-
 <p align="center">
 
 <table>
