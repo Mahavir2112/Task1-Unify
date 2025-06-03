@@ -1,10 +1,35 @@
-# Text-Input
+## 🛠️ Figma to Unify Component Conversion (Text-Input)
 
-## Overview
+This project provides a two-step toolchain to convert Figma design exports into structured Unify `e_component` JSON files. This is useful for rapidly transforming UI inputs from design to code for UnifyApps or compatible low-code systems.
 
-- The `extract_text_inputs.py` file takes a Figma response JSON as input, extracts all text input components, and stores them in `text_inputs.json`.
+---
 
-- The `convert_to_unify.py` file takes `text_inputs.json` as input, converts it to the Unify Apps JSON format, and stores the result in `e_component.json`.
+### ✅ What This Does
+
+1. **Step 1 (`extract_text_inputs.py`)**  
+   Parses a Figma API JSON export and extracts text input-related data such as:
+   - Label text
+   - Placeholder
+   - Hint/supporting text
+   - Size and position
+   - Component ID / type
+
+   📤 Output: `text_inputs.json`
+
+2. **Step 2 (`convert_to_unify.py`)**  
+   Converts the extracted inputs into a Unify-compatible `e_component.json` file that can be directly used to render the components in a Unify runtime environment.
+
+   📤 Output: `e_component.json`
+
+---
+
+### 🔁 How It Works
+
+#### 🧩 Step 1: Extract Text Inputs
+
+```bash
+python extract_text_inputs.py
+
 
 
 <p align="center">
