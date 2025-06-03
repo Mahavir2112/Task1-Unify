@@ -1,6 +1,5 @@
 ## 🛠️ Figma to Unify Component Conversion (Text-Input)
-
-This project provides a two-step toolchain to convert Figma design exports into structured Unify `e_component` JSON files. This is useful for rapidly transforming UI inputs from design to code for UnifyApps or compatible low-code systems.
+Convert Figma text input components into Unify-compatible `e_component.json` files using Python.
 
 ---
 
