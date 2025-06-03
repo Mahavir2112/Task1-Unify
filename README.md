@@ -7,9 +7,10 @@
 - The `convert_to_unify.py` file takes `text_inputs.json` as input, converts it to the Unify Apps JSON format, and stores the result in `e_component.json`.
 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Mahavir2112/Task1-Unify/main/Figma_image.png" height="100"/>
-  <span style="font-size: 2rem; margin: 0 10px;">➡️</span>
-  <img src="https://raw.githubusercontent.com/Mahavir2112/Task1-Unify/main/Unify_image.png" height="100"/>
-</p>
+<div align="center" style="display: flex; align-items: center; gap: 20px;">
+  <img src="https://raw.githubusercontent.com/Mahavir2112/Task1-Unify/main/Figma_image.png" height="150"/>
+  <span style="font-size: 3rem;">➡️</span>
+  <img src="https://raw.githubusercontent.com/Mahavir2112/Task1-Unify/main/Unify_image.png" height="150"/>
+</div>
+
 
